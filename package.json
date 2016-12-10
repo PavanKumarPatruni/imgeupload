@@ -1,0 +1,23 @@
+{
+  "name": "imageupload",
+  "version": "1.0.0",
+  "description": "image upload",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "^0.0.2",
+    "http": "^0.0.0",
+    "mongodb": "^2.2.6",
+    "mkdirp": "^0.5.1",
+    "node-base64-image": "^1.0.1",
+    "mongoose": "^4.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Pavan Kumar Patruni",
+  "license": "ISC"
+}
